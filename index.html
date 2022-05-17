@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMULARIO</title>
+  </head>
+  <body>
+    <main>
+      <form action="" method="get" id="formulario">
+        <div class="form">
+          <h1><CENTER>INGRESO DE DATOS DEL CLIENTE</CENTER></h1>
+          <label for="cedula">Cédula de Identificación:</label>
+          <div class="datos">  
+          <input type="text" name="" id="cedula"placeholder="Dígite su número de cédula" required> <br>   
+          </div>
+          <label for="apellido">Apellido:</label>
+          <div class="datos">  
+          <input type="text" name="" id="apellido"placeholder="Ingrese sus apellido" required> <br>  
+          </div>
+          <label for="nombre">Nombre:</label>
+          <div class="datos"> 
+          <input type="text" name="" id="nombre"placeholder="Ingrese sus nombre" required> <br>         
+          </div>
+          <label for="estado civil">Estado Civil:</label>
+          <div class="datos"> 
+          <input type="radio" name="estado civil" id="nombres" value="Soltero" checked="checked"/>
+          Soltero<br>
+          <input type="radio" name="estado civil" id="nombres" value="Casado" checked="checked"/>
+          Casado<br>  
+          <input type="radio" name="estado civil" id="nombres" value="Divorciado" checked="checked"/>
+          Divorciado<br> 
+          <input type="radio" name="estado civil" id="nombres" value="Viudo" checked="checked"/>
+          Viudo<br>
+          <input type="radio" name="estado civil" id="nombres" value="Union Libre" checked="checked"/>
+          Union Libre<br>       
+          </div>
+          <label for="">Sexo:</label>
+          <div class="datos"> 
+          <input type="radio" name="sexo" id="sexo" value="Masculino" checked="checked"/>
+          Masculino<br>
+          <input type="radio" name="sexo" id="sexo" value="Femenino" checked="checked"/>
+          Femenino<br>          
+          </div>
+          <label for="">Cuidad:</label>
+          <div class="datos">
+              <input type="text" name="" id="cuidad"
+              placeholder="Ingrese lugar de residencia" required> <br>           
+          </div>
+          <label for="">Dirección:</label>
+          <div class="datos">
+            <input type="text" name="" id="direccion"
+              placeholder="Ingrese su dirección" required> <br>
+              
+          </div>
+          <label for="">Teléfono:</label>
+          <div class="datos">
+              <input type="text" name="" id="telefono"
+              placeholder="Dígite su número telefónico" required> <br>           
+          </div>
+          <label for="">Correo Electronico:</label>
+          <div class="datos">
+              <input type="text" name="" id="correo"
+              placeholder="Dígite su direccion de correo electronico" required> <br>           
+          </div>
+        
+          </div>
+          <br>
+          <button type="submit" onclick="EnviarDatos()">Enviar Datos</button>
+           
+        </div>
+      </form>
+    </main>
+  </body
